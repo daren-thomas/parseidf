@@ -9,6 +9,8 @@ Parses an IDF file (as used by EnergyPlus) into a dictionary of lists in the fol
    { A => [[A, x, y, z], [A, a, b, c]],
      B => [[B, 1, 2], [B, 1, 2, 3]] }
 
+- the index keys are all capitalized.
+
 - also, all field values are strings, i.e. no interpretation of the values is made.
 
 # Example
@@ -21,6 +23,10 @@ with open(r'in.idf', 'r') as f:
 print idf.keys()  # lists the object types in the idf file
 print idf['OUTPUT:VARIABLE']  # lists all the Output:Variable objects in the idf file
 ```
+
+# Dependencies
+
+parseidf depends on PLY (Python Lex & Yacc): https://pypi.python.org/pypi/ply/3.4
 
 # License & Credit
 
