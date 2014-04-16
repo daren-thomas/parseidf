@@ -13,5 +13,5 @@ Parses an IDF file (as used by EnergyPlus) into a dictionary of lists in the fol
 
 # SuAT - Sustainable Architecture and Building Technologies
 
-This module was developed at the assistant chair for [Sustainable Architecture and Building Technologies (SuAT)][http://suat.arch.ethz.ch]
-at the [Institute of Technology in Architecture][http://ita.arch.ethz.ch], ETH Zürich.
+This module was developed at the assistant chair for [Sustainable Architecture and Building Technologies (SuAT)](http://suat.arch.ethz.ch)
+at the [Institute of Technology in Architecture](http://ita.arch.ethz.ch), ETH Zürich.
