@@ -11,7 +11,21 @@ Parses an IDF file (as used by EnergyPlus) into a dictionary of lists in the fol
 
 - also, all field values are strings, i.e. no interpretation of the values is made.
 
-# SuAT - Sustainable Architecture and Building Technologies
+# Example
 
-This module was developed at the assistant chair for [Sustainable Architecture and Building Technologies (SuAT)](http://suat.arch.ethz.ch)
+```python
+import parseidf
+
+with open(r'in.idf', 'r') as f:
+    idf = parseidf.parse(f.read())
+print idf.keys()  # lists the object types in the idf file
+print idf['OUTPUT:VARIABLE']  # lists all the Output:Variable objects in the idf file
+```
+
+# License & Credit
+
+This project is licensed under the terms of the MIT license. See the file "LICENSE" in the project root for more information.
+
+This module was developed by Daren Thomas at the assistant chair for [Sustainable Architecture and Building Technologies (SuAT)](http://suat.arch.ethz.ch)
 at the [Institute of Technology in Architecture](http://ita.arch.ethz.ch), ETH Zürich.
+
