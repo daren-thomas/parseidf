@@ -1,5 +1,13 @@
+# This file is licensed under the terms of the MIT license. See the file
+# "LICENSE" in the project root for more information.
+#
+# This module was developed by Daren Thomas at the assistant chair for
+# Sustainable Architecture and Building Technologies (Suat) at the Institute of
+# Technology in Architecture, ETH Zürich. See http://suat.arch.ethz.ch for
+# more information.
 '''
 parseidf.py
+
 
 parses an idf file into a dictionary of lists in the following manner:
 
