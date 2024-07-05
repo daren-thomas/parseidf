@@ -1,7 +1,7 @@
 #from setuptools import setup
 from distutils.core import setup
 
-long_description = open('README.rst', 'r').read()
+long_description = open('README.md', 'r').read()
 
 setup(
     name='parseidf',
